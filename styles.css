@@ -3,6 +3,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin:0%;
+    
+
 }
 
 hr {
@@ -81,7 +83,7 @@ hr {
 }
 
 .hero .hero-image {
-    max-width: 250px;
+    max-width: 350px;
     display: block;
     margin: auto;
 
@@ -129,3 +131,6 @@ hr {
 .footer .footer-header{
     font-weight: bold;
 }
+
+
+
