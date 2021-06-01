@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin:0%;
-    
+    margin: 0%;
+
 
 }
 
@@ -18,14 +18,14 @@ hr {
 
 .container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 
 }
 
 .link {
     text-decoration: none;
     padding: 0.5rem 0.5rem;
- 
+
 
 }
 
@@ -99,71 +99,69 @@ hr {
 .section h1 {
 
     text-align: center;
-   
+
 
 }
 
-.ow{
+.ow {
     background-color: #E5E7EB;
 }
 
-.section{
+.section {
     padding: 2rem;
 
 }
 
-.footer{
-    position:absolute;
-   margin: auto;
+.footer {
+    margin: auto;
     background-color: #60A5FA;
     padding: 2rem 1rem;
-    text-align:center;
+    text-align: center;
     color: white;
     border-top-right-radius: 2rem;
-    
+
 
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
 }
 
-.padding{
+.padding {
     padding: 2rem;
 }
 
-img{
+img {
     margin-left: 30%;
     width: 40%;
     padding-top: 2%;
 }
 
-.blogmater{
+.blogmater {
     margin-left: 10rem;
     margin-right: 10rem;
 }
 
-h1{
+h1 {
     font-size: 4vh;
 }
 
-.small{
-    text-decoration:none;
-    font-size:20px;
+.small {
+    text-decoration: none;
+    font-size: 20px;
     font-weight: lighter;
 }
 
 
-.underfooter { 
-   
+.underfooter {
 
 
 
@@ -171,18 +169,10 @@ h1{
 
 
 
- background-color: #FCD34D;
+
+    background-color: #FCD34D;
 
 
 
-footer
-
-
-  <footer id="footer">
-        <h2>About</h2>
-        <div id="mini">Are you fan of minions ? Did you know the gibbrish they say is an actual language. The minions' language includes French, Spanish … and food references. Use this translater to convert your text from english to minion speak Or banana Language</div>
-    </footer>
-
-
-
-
+    footer <footer id="footer"><h2>About</h2><div id="mini">Are you fan of minions ? Did you know the gibbrish they say is an actual language. The minions' language includes French, Spanish … and food references. Use this translater to convert your text from english to minion speak Or banana Language</div>
+</footer>
