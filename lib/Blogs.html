@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs | Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="/styles.css"> <body>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+
+<body>
     <nav class="navigation">
         <div class="nav-brand">IamRavIShanKar</div>
         <ul class="list-non-bullet nav-pills">
@@ -17,55 +19,92 @@
     </nav>
     <header class="hero">
         <img class="hero-image" src="/img3.svg">
-        <h1 class="hero-heading">This Belongs to<span style="color:#818CF8"> Mr.RAvi </span>the superhero</h1>
+        <h1 class="hero-heading">My <span style="color:#818CF8">Blogs</span></h1>
 
     </header>
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>Technologies</h1>
-            <p>Experienced Desktop Support Engineer with a demonstrated history of working in the information technology
-                and services industry. Skilled in Computer Repair, Computer Hardware Troubleshooting, Windows, Microsoft
-                Office, and Troubleshooting. Strong information technology professional deploma from Jetking Nagpur.</p>
+
+    <section>
+
+        <h1 class="container container-center">7 HTTP Request methods every web developer should know and how to test
+            them <br><small class="small">June, 2021</small></h1>
+            
+        <img src="/blogimg1.png">
+        <div class="blogmater">
+
+            <h2 class="ow">GET</h2>
+
+            <p>GET requests are the most common and widely used methods in APIs and websites. Simply put, the GET method
+                is used to retreive data from a server at the specified resource. For example, say you have an API with
+                a /users endpoint. Making a GET request to that endpoint should return a list of all available users.
+
+                Since a GET request is only requesting data and not modifying any resources, it's considered a safe and
+                idempotent method.</p>
+
+            <h2>Testing an API with GET requests.</h2>
+
+            <p> When you're creating tests for an API, the GET method will likely be the most frequent type of request
+                made by consumers of the service, so it's important to check every known endpoint with a GET request.
+
+                At a basic level, these things should be validated:
+
+                Check that a valid GET request returns a 200 status code.
+                Ensure that a GET request to a specific resource returns the correct data. For example, GET /users
+                returns a list of users.
+                GET is often the default method in HTTP clients, so creating tests for these resources should be simple
+                with any tool you choose.</p>
 
 
+
+            <details>
+                <summary>Read more/less</summary>
+                <h1>POST</h1>
+                <p>In web services, POST requests are used to send data to the API server to create or udpate a
+                    resource. The data sent to the server is stored in the request body of the HTTP request.
+
+                    The simplest example is a contact form on a website. When you fill out the inputs in a form and hit
+                    Send, that data is put in the response body of the request and sent to the server. This may be JSON,
+                    XML, or query parameters (there's plenty of other formats, but these are the most common).
+
+                    It's worth noting that a POST request is non-idempotent. It mutates data on the backend server (by
+                    creating or updating a resource), as opposed to a GET request which does not change any data. Here
+                    is a great explanation of idempotentcy.</p>
+                <h2>Testing an API with POST requests</h2>
+                <p>The second most common HTTP method you'll encounter in your API tests is POST. As mentioned above,
+                    POST requests are used to send data to the API server and create or update a resource. Since POST
+                    requests modify data, it's important to have API tests for all of your POST methods.
+
+                    Here are some tips for testing POST requests:
+
+                    Create a resource with a POST request and ensure a 200 status code is returned.
+                    Next, make a GET request for that resource, and ensure the data was saved correctly.
+                    Add tests that ensure POST requests fail with incorrect or ill-formatted data.</p>
+            </details>
+<hr>
         </div>
 
 
     </section>
-
-    <section class="section">
-        <div class="container container-center">
-            <h1>Certifications</h1>
-            <p> I like to showcase My some Certifications, see my Certifications by clicking following button.</p>
-            <a class="link link-primary"
-                href="https://drive.google.com/file/d/10_-2sCpw40MTS0yjYorg__falZrZ6d7K/view?usp=sharing">Certification</a>
-        </div>
+    
+    
 
 
-    </section>
-
-    <section class="section ow">
-        <div class="container container-center">
-            <h1>Blogs</h1>
-            <p>I am working on some technical blogs, I like to document my journey of learning.</p>
-            <a class="link link-secondary" href="">My Blogs</a>
-
-        </div>
 
 
-    </section>
+
 
     <footer class="footer">
         <div class="footer-header">Social media presence</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline"><a class="link" href="https://github.com/rjrvsharma">Github</a></li>
-            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ravishankar-vishwakarma-929853139/">Linkdin</a></li>
-            <li class="list-item-inline"><a class="link" href="https://www.instagram.com/ravi_rv_vishwakarma/">Instagram</a></li>
+            <li class="list-item-inline"><a class="link"
+                    href="https://www.linkedin.com/in/ravishankar-vishwakarma-929853139/">Linkdin</a></li>
+            <li class="list-item-inline"><a class="link"
+                    href="https://www.instagram.com/ravi_rv_vishwakarma/">Instagram</a></li>
         </ul>
 
     </footer>
 
 
-    </body>
+</body>
 
 </html>

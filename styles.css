@@ -136,6 +136,29 @@ hr {
     padding: 2rem;
 }
 
+img{
+    margin-left: 30%;
+    width: 40%;
+}
+
+.blogmater{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+h1{
+    font-size: 4vh;
+}
+
+.small{
+    text-decoration:none;
+    font-size:20px;
+    font-weight: lighter;
+}
+
+
+
+
 
 
 
