@@ -113,11 +113,15 @@ hr {
 }
 
 .footer{
+    position:absolute;
+   margin: auto;
     background-color: #60A5FA;
     padding: 2rem 1rem;
     text-align:center;
     color: white;
     border-top-right-radius: 2rem;
+    
+
 }
 
 .footer .link{
@@ -139,6 +143,7 @@ hr {
 img{
     margin-left: 30%;
     width: 40%;
+    padding-top: 2%;
 }
 
 .blogmater{
@@ -155,6 +160,10 @@ h1{
     font-size:20px;
     font-weight: lighter;
 }
+
+
+.underfooter { 
+   
 
 
 

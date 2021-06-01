@@ -25,13 +25,13 @@
 
     <section>
 
-        <h1 class="container container-center">7 HTTP Request methods every web developer should know and how to test
+        <h1 class="container container-center ow">7 HTTP Request methods every web developer should know and how to test
             them <br><small class="small">June, 2021</small></h1>
-            
+
         <img src="/blogimg1.png">
         <div class="blogmater">
 
-            <h2 class="ow">GET</h2>
+            <h2>GET</h2>
 
             <p>GET requests are the most common and widely used methods in APIs and websites. Simply put, the GET method
                 is used to retreive data from a server at the specified resource. For example, say you have an API with
@@ -56,7 +56,7 @@
 
 
             <details>
-                <summary>Read more/less</summary>
+                <summary style="font-weight: bolder;">Read more/less</summary>
                 <h1>POST</h1>
                 <p>In web services, POST requests are used to send data to the API server to create or udpate a
                     resource. The data sent to the server is stored in the request body of the HTTP request.
@@ -79,30 +79,73 @@
                     Next, make a GET request for that resource, and ensure the data was saved correctly.
                     Add tests that ensure POST requests fail with incorrect or ill-formatted data.</p>
             </details>
-<hr>
+            <hr>
         </div>
 
 
     </section>
+
+    <section>
+
+        <h1 class="container container-center ow"> Status Codes
+            <br><small class="small">June, 2021</small></h1>
+
+        <img src="/statuscode.png">
+        <div class="blogmater">
+
+            <h2 class="ow">About Status CodesT</h2>
+
+            <p>Every time you click on a link or type in a URL and press Enter, your browser sends a request to the
+                webserver for the site you’re trying to access. The server receives and processes the request, and then
+                sends back the relevant resources along with an HTTP header.
+
+                HTTP status codes are delivered to your browser in the HTTP header. While status codes are returned
+                every single time your browser requests a web page or resource, most of the time you don’t see them.
+
+                It’s usually only when something goes wrong that you might see one displayed in your browser. This is
+                the server’s way of saying: “Something isn’t right. Here’s a code that explains what went wrong.”</p>
+
+            <img src="/statuserror.png">
+
+            <h2>Understanding HTTP Status Code Classes.</h2>
+
+            <p>HTTP status codes are divided into 5 “classes”. These are groupings of responses that have similar or
+                related meanings. Knowing what they are can help you quickly determine the general substance of a status
+
+                code before you go about looking up its specific meaning.
+                <h3>The five classes include:<h/3> <div style="font-weight:lighter; font-size: medium;">
+                        <ul id="smallword">
+
+
+                            <li>100s: Informational codes indicating that the request initiated by the browser is
+                                continuing.</li>
+                            <li>200s: Success codes returned when browser request was received, understood, and
+                                processed by the server.</li>
+                            <li>300s: Redirection codes returned when a new resource has been substituted for the
+                                requested resource.</li>
+                            <li>400s: Client error codes indicating that there was a problem with the request.</li>
+                            <li>500s: Server error codes indicating that the request was accepted, but that an error on
+                                the server</li>
+                            <li>prevented the fulfillment of the request.</li>
+
+            </p>
+
+            </ul>
+        </div>
+
+
+
+
+        <footer class="footer">
+            <div class="footer-header">Social media presence</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="link" href="https://github.com/rjrvsharma">Github</a></li>
+                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ravishankar-vishwakarma-929853139/">Linkdin</a></li>
+                <li class="list-item-inline"><a class="link" href="https://www.instagram.com/ravi_rv_vishwakarma/">Instagram</a></li>
+            </ul>
     
+        </footer>
     
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="footer-header">Social media presence</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="https://github.com/rjrvsharma">Github</a></li>
-            <li class="list-item-inline"><a class="link"
-                    href="https://www.linkedin.com/in/ravishankar-vishwakarma-929853139/">Linkdin</a></li>
-            <li class="list-item-inline"><a class="link"
-                    href="https://www.instagram.com/ravi_rv_vishwakarma/">Instagram</a></li>
-        </ul>
-
-    </footer>
 
 
 </body>
