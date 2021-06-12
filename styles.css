@@ -3,7 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
-
+    
 
 
 }
@@ -57,6 +57,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    font-size: 2.5vh;
 }
 
 .navigation .nav-pills {
@@ -120,7 +121,6 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 2rem;
-   
 
 
 }
@@ -142,11 +142,9 @@ hr {
 }
 
 img {
-
     margin-left: 30%;
     width: 40%;
     padding-top: 2%;
-
 }
 
 .blogmater {
@@ -165,49 +163,30 @@ h1 {
 }
 
 
+
+
 #blog {
    
-    padding: 0%;
-    margin: 0%;
+   
+    display: table;
     height: 100%;
-    width: 50%;
+    width: 100%;
+  
 }
 
-#blog2 {
-    
-    padding: 0%;
-    margin: 0%;
-    height: 100%;
-    width: 50%;
-    
-    
-}
+.blogdiv{
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+width: 50%;
+padding-left: 1rem;
+padding-right: 1rem;
 
-#vl{
-    border-left: 6px solid blue;
-    height: 915px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    margin-top: 80vh;
-    top: 0;
-
-}
-
-.alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
 }
 
 
 
 
 
-background-color: #FCD34D;
 
 
-
-footer <footer id="footer"><h2>About</h2><div id="mini">Are you fan of minions ? Did you know the gibbrish they say is an actual language. The minions' language includes French, Spanish … and food references. Use this translater to convert your text from english to minion speak Or banana Language</div>
-</footer>
